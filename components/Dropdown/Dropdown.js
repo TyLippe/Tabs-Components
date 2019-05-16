@@ -14,7 +14,7 @@ class Dropdown {
     this.button.addEventListener('click', () => {
       this.toggleContent()
       // this.buttonColor()
-      event.stopPropagation()
+       event.stopPropagation()
     }) 
     window.addEventListener('click', () => {
       // this.buttonColor()
